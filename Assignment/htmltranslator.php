@@ -15,7 +15,7 @@
             <td colspan="3"><button type="submit" name="b1" value="submit" style="font-size:30px;background-color:green;">RUN</button></td>
         </tr>
         <tr height="580">
-            <td rowspan="2"><textarea name="code" style="width:98%; height:500px;">
+            <td><textarea name="code" style="width:98%; height:500px;">
                 <?php 
                if(isset($_POST['b1'])){ 
                    echo($_POST['code']); 
